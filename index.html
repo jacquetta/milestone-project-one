@@ -11,39 +11,44 @@
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Skranji" rel="stylesheet">
     </head>
     <body>
+
+      <!--Main Content -->
+
       <main class="w3-container">
-        <header class="w3-container" id="top-heading">
+
+        <!--header -->
+        <header class="w3-container top-heading">
           <div class="w3-row w3-mobile">
             <div class="w3-third w3-container">
-              <img id="logo" src="img/logo3.png" alt="logo image" width="200" height="200">
+              <img class="logo" src="img/logo3.png" alt="logo image" width="200" height="200">
             </div>
             <div class="w3-third w3-container">
-              <h1 class="heading" id="name-heading">Jacquetta Bommuluri <span id="different">|</span> portfolio</h1>
+              <h1 class="heading name-heading">Jacquetta Bommuluri <span class="different">|</span> portfolio</h1>
             </div>
-            <div class="w3-third w3-container w3-dropdown-hover w3-mobile">
-              <button class="w3-button" id="nav-Button">&#60;Navigation&#62;</button>
-              <div class="w3-dropdown-content w3-bar-block w3-right w3-light-gray">
-                <a href="#featured-work" class="w3-bar-item w3-mobile w3-button w3-hover-blue-gray">Portfolio</a>
-                <a href="#about-me" class="w3-bar-item w3-mobile w3-button w3-hover-gray">About</a>
-                <a href="resume/index.html" class="w3-bar-item w3-mobile w3-button w3-hover-blue-gray">Resume</a>
-                <a href="#contact-me" class="w3-bar-item w3-mobile w3-button w3-hover-gray">Contact</a>
+            <div class="w3-third w3-container">
+              <div class="w3-bar">
+                <a href="#featured-work" class="w3-bar-item w3-button w3-mobile">Portfolio</a>
+                <a href="#about-me" class="w3-bar-item w3-button w3-mobile">About</a>
+                <a href="resume/index.html" class="w3-bar-item w3-button w3-mobile">Resume</a>
+                <a href="#contact-me" class="w3-bar-item w3-button w3-mobile">Contact</a>
               </div>
-            </div>
           </div>
-        </header>
+        </header><!-- end header-->
 
-        <div class="w3-row w3-container w3-center w3-mobile" id="sub-header">
-          <p class="newCode">&#60;time to code &#47;&#62;</p>
+        <!--sub-header info-->
+        <div class="w3-row w3-container w3-center w3-mobile sub-header">
+          <p class="new-code">&#60;time to code &#47;&#62;</p>
 
-          <p class="newCode">&#60;begin &#47;&#62;</p>
-        </div>
+          <p class="new-code">&#60;begin &#47;&#62;</p>
+        </div><!--end of sub-header info-->
 
+          <!-- featured work projects-->
           <section id="featured-work" class="w3-container w3-padding-64">
-            <h2 class="heading w3-center subheadings" id="work-title">Featured Projects:</h2>
+            <h2 class="heading w3-center subheadings" class="work-title">Featured Projects:</h2>
 
             <div class="w3-row w3-mobile test">
               <div class="w3-container w3-half w3-center w3-padding-32">
-                <img class="w3-image w3-hover-sepia" src="img/rogue2.png" alt="rogue pickings picture">
+                <img class="w3-image w3-hover-grayscale w3-round" src="img/rogue2.png" alt="rogue pickings picture">
               </div>
               <div class="w3-container w3-half w3-center w3-padding-64 adjust">
                 <h3 class="subheading">Rogue Pickings Website</h3>
@@ -59,13 +64,13 @@
                   <a class="project" href="https://github.com/jacquetta/skillcrush-myproject" target="_blank">Code</a>
                 </div>
                 <div class="w3-container w3-half w3-center w3-padding-32">
-                  <img class="w3-image w3-hover-sepia" src="img/jubliee2.png" alt="portfolio image">
+                  <img class="w3-image w3-hover-grayscale w3-round" src="img/jubliee2.png" alt="portfolio image">
                 </div>
             </div>
 
             <div class="w3-row w3-mobile test ">
               <div class="w3-container w3-half w3-center w3-padding-32">
-                <img class="w3-image w3-hover-sepia" src="img/book1.jpg" alt="project image">
+                <img class="w3-image w3-hover-grayscale w3-round" src="img/book1.jpg" alt="project image">
               </div>
               <div class="w3-container w3-half w3-center w3-padding-64 adjust">
                 <h3 class="subheading">Memory Game</h3>
@@ -73,50 +78,63 @@
                 <a class="project" href="https://github.com/jacquetta" target="_blank">Code</a>
               </div>
             </div>
-          </section>
+          </section><!--end of featured work-->
 
-          <section class="w3-container" id="about-me">
-            <h3 class="heading" id="about-heading">A little bit about me:</h3>
-            <div class="w3-row w3-container w3-cell w3-mobile">
+          <!-- about me section-->
+          <section class="w3-container about-me">
+            <h3 class="heading" class="about-heading">A little bit about me:</h3>
+            <div class="w3-container w3-third w3-mobile">
+            </div>
+            <div class="w3-container w3-third w3-mobile">
               <p class="about-text">Hello there and Welcome to my portfolio site.</p>
-              <p class="about-text">My name is Jacquetta Bommuluri and a Front-End Web Developer.</p>
-              <p class="about-text">I am a mother of a great little boy who constantly keeps me on my toes and is my motivation.</p>
+              <p class="about-text">My name is Jacquetta Bommuluri and I am a Front-End Web Developer.</p>
+              <p class="about-text">Also I am a mother of a great little boy who constantly keeps me on my toes and is my motivation.</p>
               <p class="about-text">I started to learn how to code late 2016 with SkillCrush and FreeCodeCamp.</p>
               <p class="about-text">I recently was accepted for the Grow with Google Scholarship for the Front-End Web Development Nanodegree course at Udacity which I will finish by October.</p>
-              <p class="about-text">A fun fact about me is that I <span id="coolStyle">love</span> zombie movies, my favorite is the 1978 Dawn of the Dead film by George A. Romero.</p>
+              <p class="about-text">A fun fact about me is that I <span class="coolStyle">love</span> zombie movies, my favorite is the 1978 Dawn of the Dead film by George A. Romero.</p>
             </div>
-            <div class="w3-row w3-container w3-mobile">
-              <p class="newCode" id="about-end">&#60;end &#47;&#62;</p>
+            <div class="w3-container w3-third w3-mobile">
             </div>
-          </section>
 
-      </main>
+            <div class="w3-row w3-container w3-mobile">
+              <p class="new-code about-end">&#60;end &#47;&#62;</p>
+            </div>
+          </section><!--end about me section-->
+
+      </main><!--end Main Content-->
+
+      <!--footer-->
 
       <footer class="w3-container w3-padding-16" id="footer-end">
-        <h3 class="heading" id="contact-me">connect with me:</h3>
+
+        <h3 class="heading contact-me">connect with me:</h3>
         <div class="w3-row w3-mobile">
           <div class="w3-container w3-third">
             <h5 class="subheading">Hire Me:</h5>
             <p class="connect"><a href="mailto:jacquettavb@hotmail.com?Subject=Connect%20" target="_blank">Click Me!</a></p>
           </div>
+          <!--social media-->
           <div class="w3-container w3-third">
             <h5 class="subheading">Follow me:</h5>
             <div class="w3-bar w3-container">
-            <a class="w3-bar-item" href="https://github.com/jacquetta" target="_blank"><i class="fab fa-github-alt fa-2x"></i></a>
-            <a class="w3-bar-item" href="https://linkedin.com/in/jacquetta-bommuluri" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
-            <a class="w3-bar-item" href="https://twitter.com/jackiecancode" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="w3-bar-item w3-button w3-mobile" href="https://github.com/jacquetta" target="_blank"><i class="fab fa-github-alt fa-2x"></i></a>
+            <a class="w3-bar-item w3-button w3-mobile" href="https://linkedin.com/in/jacquetta-bommuluri" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            <a class="w3-bar-item w3-button w3-mobile" href="https://twitter.com/jackiecancode" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
             </div>
           </div>
+
           <div class="w3-container w3-third">
             <h5 class="subheading">Meet up with me:</h5>
             <p class="connect">Twin Cities, Minnesota</p>
           </div>
         </div>
+
+        <!--copyright-->
         <div class="w3-row w3-container w3-mobile">
           <p id="copyright">Copyright 2018 | Jacquetta Bommuluri</p>
           <p id="logo-credit">Logo made with <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a></p>
         </div>
-      </footer>
+      </footer><!--footer-->
 
     </body>
 </html>
